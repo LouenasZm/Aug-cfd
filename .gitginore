@@ -1,0 +1,7 @@
+.venv
+.vscode
+.pytest_cache
+__pycache__
+*/__pycache__
+*/*/__pycache__
+aug_cfd/Aug_cfd.egg-info/*
