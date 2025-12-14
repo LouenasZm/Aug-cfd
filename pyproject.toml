@@ -5,7 +5,10 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-# This section defines the core metadata for your project.
+# This section defines the core metadata for the project.
+[tool.setuptools]
+packages = ["aug_cfd"]
+
 [project]
 name = "Aug-cfd"
 version = "0.1.0"
@@ -13,7 +16,7 @@ authors = [
   { name="Louenas Zemmour", email="louenas.zemmour@sorbonne-universite.fr" }, # Please update this
 ]
 description = "A package for CFD augmentation and simulation."
-readme = "README.md" # Assumes you have a README.md file
+readme = "README.md" # Assuming a README exists
 requires-python = ">=3.8"
 classifiers = [
     # Find more classifiers at https://pypi.org/classifiers/
@@ -23,8 +26,7 @@ classifiers = [
     "Topic :: Scientific/Engineering",
 ]
 
-# List your project's runtime dependencies here.
-# pip will automatically install these when your package is installed.
+# Listing project's runtime dependencies here.
 dependencies = [
     "numpy",
     "submitit",
