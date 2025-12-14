@@ -9,7 +9,7 @@ from abc import ABC, abstractmethod
 from concurrent.futures import ThreadPoolExecutor
 import submitit
 
-from interface import PostProcessMusicaa
+from ppModule.interface import PostProcessMusicaa
 from ppModule.iniFiles.read_ini import ParamBlockReader
 from .utils_musicaa import (
     run_musicaa_task, 
