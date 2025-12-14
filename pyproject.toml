@@ -20,7 +20,7 @@ readme = "README.md" # Assuming a README exists
 requires-python = ">=3.8"
 classifiers = [
     # Find more classifiers at https://pypi.org/classifiers/
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
     "Operating System :: OS Independent",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering",
