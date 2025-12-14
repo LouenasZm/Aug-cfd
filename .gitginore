@@ -1,7 +1,14 @@
+# Ignore these everywhere (recursively)
+__pycache__/
+*.py[cod]
+
+# Distribution / Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environments
 .venv
 .vscode
 .pytest_cache
-__pycache__
-*/__pycache__
-*/*/__pycache__
-aug_cfd/Aug_cfd.egg-info/*
